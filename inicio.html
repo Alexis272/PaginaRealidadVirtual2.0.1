@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.2.3/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/21.2.3/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/21.2.3/js/dx.all.js"></script>
+    <script src="js/dataGrafica.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <script src="js/dataGrafica.js"></script>
+	
+	<title>Realidad Virtual</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">INICIO</h2>			
+			<nav>
+				<a href="inicio.html">INICIO</a>
+				<a href="card.html" >PERFIL</a>
+				<a href="subir.html">TUS VIDEOS</a>
+                <a href="">|</a>
+				<a href="index.html">CERRAR SESIÓN</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="video-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Introducción</h3>
+				<p class="descripcion">
+					Se muestra la presentacion de nuestro sistema de video.
+				</p>
+				<a href="Reproduc/Introd.html">
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir </button>
+				</a>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+		<div class="videos-recomendados contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>videos recomendados</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				 <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				 <div class="contenedor-carousel">
+					 <div class="carousel">
+					 	<div class="video">
+							<a href="paginas/Uno.html"><img src="Video/principal-GifVid5.gif" alt="Recorrido Virtual"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Dos.html"><img src="Video/principal-GifVid6.gif" alt="Recorrido Destello de Luz"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Tres.html"><img src="Video/principal-GifVid1.gif" alt="Recorrido Destello de Luz 2"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Cuatro.html"><img src="Video/principal-GifVid2.gif" alt="Recorrido Burbuja de Agua"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Cinco.html"><img src="Video/principal-GifVid3.gif" alt="Recorrido en Portal Colorido"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Seis.html"><img src="Video/principal-GifVid7.gif" alt="Recorrido en Sistema"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Siete.html"><img src="Video/SistemaSolar.png" alt="Recorrido Sistema Solar"></a>
+						 </div>
+						 <div class="video">
+							<a href="paginas/Ocho.html"><img src="Video/MontañaRusa.png" alt="Recorrido en Montaña Rusa"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/campo.jfif" alt="Recorrido en un campo"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/cascada,png.jfif" alt="Recorrido en cascada"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/lluvia.jfif" alt="Recorrido en lluvia"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/playa.jfif" alt="Recorrido en la playa"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/puebla.jfif" alt="Recorrido en puebla"></a>
+						 </div>
+						 <div class="video">
+							<a href="#"><img src="img/pueblo.jfif" alt="Recorrido en un pueblo"></a>
+						 </div>
+					</div>
+				</div>
+
+				 <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+	
+</body>
+
+</html>

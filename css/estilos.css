@@ -1,0 +1,645 @@
+:root {
+	--fondo: #000000;
+	--azul: #00f7ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--azul);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+/* ---- Video Principal ----- */
+.video-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/PealtrexLogotipos.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-principal .boton i {
+	margin-right: 1.25em;
+}
+
+
+/* ---- Video uno ----- */
+.video-uno {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid5.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-uno .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-uno .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-uno .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-uno .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-uno .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-uno .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Dos ----*/
+.video-dos{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid6.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-dos .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-dos .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-dos .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-dos .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-dos .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-dos .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Tres ----*/
+.video-tres{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid1.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-tres .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-tres .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-tres .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-tres .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-tres .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-tres .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Cuatro ----*/
+.video-cuatro{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid2.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-cuatro .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-cuatro .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-cuatro .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-cuatro .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-cuatro .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-cuatro .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Cinco ----*/
+.video-cinco{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid3.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-cinco .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-cinco .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-cinco .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-cinco .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-cinco .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-cinco .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Seis ----*/
+.video-seis{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/GifVid7.gif);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-seis .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-seis .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-seis .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-seis .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-seis .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-seis .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Siete ----*/
+.video-siete{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/SistemaSolar.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-siete .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-siete .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-siete .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-siete .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-siete .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-siete .boton i {
+	margin-right: 1.25em;
+}
+
+/* --- Video Ocho ----*/
+.video-ocho{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../Video/MontañaRusa.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.video-ocho .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+.video-ocho .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+.video-ocho .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+.video-ocho .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+.video-ocho .boton:hover {
+	background: #fff;
+	color: #000;
+}
+.video-ocho .boton i {
+	margin-right: 1.25em;
+}
+
+
+/* ---- Contenedor Titulos y Controles ----*/
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: blue;
+}
+
+/* ---- Contenedor Principal y flechas ---- */
+.videos-recomendados {
+	margin-bottom: 70px;
+}
+.videos-recomendados .contenedor-principal {
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.videos-recomendados .contenedor-principal .flecha-izquierda,
+.videos-recomendados .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0, 0, 0, 0.3); 
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.videos-recomendados .contenedor-principal .flecha-izquierda:hover,
+.videos-recomendados .contenedor-principal .flecha-derecha.hover {
+	background: rgba(0, 0, 0, .9);
+}
+
+.videos-recomendados .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.videos-recomendados .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- Carousel ---- */
+.videos-recomendados .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+
+}
+
+.videos-recomendados .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.videos-recomendados .contenedor-carousel .carousel .video {
+min-width: 20%;
+transition: .3 ease all;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.videos-recomendados .contenedor-carousel .carousel .video.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+
+.videos-recomendados .contenedor-carousel .carousel .video img{
+	width: 100%;
+	vertical-align: top;
+}
+
+
+/* ---- Media Queries ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.video-principal {
+		font-size: 14px;
+	}
+
+	.video-principal .descripcion {
+		max-width: 100%;
+	}
+}
+
+.img-galeria{
+    width: 15%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+
+}
+.img-galeria{
+	width: 25%;
+}
+.img-galeria{
+	width: 20%;
+}
+.contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+
+}
+
+/* Grafica */
+
+#chart-demo {
+    height: 460px;
+  }
+  
+  .charts {
+    width: 820px;
+    margin: 0 auto;
+    height: 374px;
+    margin-bottom: 40px;
+    font-size: 0;
+  }
+  
+  #chart,
+  #pieChart {
+    width: 395px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  #chart {
+    margin-right: 30px;
+  }
+  
+  .controls-pane {
+    text-align: center;
+  }
+  
