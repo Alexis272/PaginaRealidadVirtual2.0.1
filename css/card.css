@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(67, 67, 67);
+    background: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
     padding: 0 20px;
 }
@@ -24,7 +24,7 @@
 }
 
 .header{
-    border-right: 1pz solid rgb(191, 191, 191);
+    border-right: 1pz solid rgb(2, 59, 138);
 }
 .descripción{
     background: #fbfbfb;
